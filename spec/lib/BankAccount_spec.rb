@@ -11,7 +11,7 @@ describe BankAccount do
     it "check the withdraw" do
    	  account1=BankAccount.new(5000)
       balance=account1.withdraw(500)
-      expect(balance).to eq(4000)
+      expect(balance).to eq(4500)
     end
     it "check the transaction" do
    	  account1=BankAccount.new(5000)
