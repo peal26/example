@@ -9,7 +9,7 @@ describe Largest do
   end
     it "finds the largest number in the array" do
       largest_number = Largest.find_largest([-1,-3,3])
-      expect(largest_number).to eq(3)
+      expect(largest_number).to eq(-3)
     end
   end
 end
